@@ -1,4 +1,18 @@
 Rails.application.routes.draw do
+  get 'charts/new'
+
+  get 'charts/show'
+
+  get 'charts/edit'
+
+  get 'admin/dashboard'
+
+  get 'admin/stats'
+
+  get 'admin/financials'
+
+  get 'admin/settings'
+
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   get 'categories/show'
 
